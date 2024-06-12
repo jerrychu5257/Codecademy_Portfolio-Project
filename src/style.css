@@ -1,0 +1,255 @@
+* {
+    border: 1px solid black;
+    font-family: "Inter";
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+
+h1,h2,h3{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display: flex;
+    height: 120px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar{
+    display: flex;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 120px;
+    align-items: center;
+}
+
+.logo{
+    padding-left: 56px;
+    font-weight:normal;
+    font-size: 36px;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0;
+    width: 600px;
+    font-size: 24px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-aboutme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #F6F6F6;
+    padding: 0px 30px;
+}
+
+.nav-projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #E9E9E9;
+    padding: 0px 30px;
+}
+
+.nav-skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #D9D9D9;
+    padding: 0px 30px;
+}
+
+.nav-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #AAAAAA;
+    padding: 0px 30px;
+}
+
+.AboutMe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    height: 800px;
+    overflow: hidden;
+}
+
+.AboutMe .info{
+    margin-left: 160px;
+    position: relative;
+    top: -80px;
+}
+
+.AboutMe .info .description{
+    position: relative;
+    top: 120px;
+}
+
+.AboutMe .info p{
+    position: relative;
+    top: 54px;
+    font-size: 24px;
+    width: 430px;
+    line-height: 36px;
+}
+
+#photo{
+    width: 360px;
+    height: 436px;
+    margin-right: 160px;
+}
+
+.shape1{
+    width: 100%;
+    height: 250px;
+    background-color: #F6F6F6;
+}
+.shape2{
+    position:relative;
+    top: 50px;
+    width: 100%;
+    height: 150px;
+    background-color: #E9E9E9;
+}
+.shape3{
+    position:relative;
+    top: 50px;
+    width: 100%;
+    height: 50px;
+    background-color: #D9D9D9;
+}
+
+.ProjectsNskills{
+    height: 1024px;
+    font-size: 24px;
+    overflow: hidden;
+    display: flex;
+}
+
+.ProjectsNskills .info-project{
+    margin-left: 160px;
+    position: relative;
+    top: 80px;
+}
+
+.ProjectsNskills .info-project .description{
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 48px;
+}
+
+.ProjectsNskills .description p{
+    position: relative;
+    top: 24px;
+    width: 527px;
+}
+
+.ProjectsNskills .info-skills{
+    margin-left: 160px;
+    position: relative;
+    top: 300px;
+}
+
+.ProjectsNskills .info-skills .icons{
+    position: relative;
+    top: 48px;
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+
+}
+
+.icons img{
+    width: 80px;
+    height: 80px;
+}
+
+.Contact{
+    display: none;
+    height: 800px;
+    font-size: 24px;
+}
+
+.Contact .info-contact{
+    margin-left: 160px;
+    position: relative;
+    top: 300px;
+}
+
+.Contact .info-contact h3{
+    font-size: 24px;
+    position: relative;
+    top: 80px;
+}
+
+.Contact .info-contact .email{
+    position: relative;
+    top: 120px;
+}
+
+footer{
+    height: 300px;
+    background-color: #AAAAAA;
+    display: flex;
+    overflow: hidden;
+}
+
+footer .footer-logo{
+    margin-left: 56px;
+    margin-top: 80px;
+    color: white;
+    font-weight: lighter;
+
+}
+
+footer .footer-logo h1 {
+    font-weight: normal;
+}
+
+footer .footer-logo p {
+    position: relative;
+    top: 48px;
+    width: 240px;
+}
+
+footer .footer-nav{
+    margin-top: 80px;
+    margin-left: 200px;
+}
+
+footer .footer-nav .nav-list2{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    color: white;
+    margin:0;
+    padding: 0;
+    height:140px;
+}
